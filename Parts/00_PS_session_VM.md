@@ -25,7 +25,7 @@ Set-Item wsman:\localhost\Client\TrustedHosts -value "IP address"
 5. Add that IP PS Session 
 
 ```shell
-new-PSSession -ComputerName "IP" -Credential (Get-Credentials)
+New-PSSession -ComputerName "IP" -Credential (Get-Credentials)
 ```
 
 6. Enter that PS Session
